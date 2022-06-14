@@ -4,7 +4,7 @@ Feature: flipkart automation
 
   #one time execution
 
-  @flipkartpayment
+  @flipkartpayment22
   Scenario:Login and go to payment
     Given Launch browser
     And user emter credentials for flipkart "yuvarajsrec4@gmail.com"
@@ -16,7 +16,7 @@ Feature: flipkart automation
     But user shouldnot see the gotocart screen
 
     #multi time execution
-     @flipkartpayment2 
+     @flipkartpayment222
      Scenario Outline:Login and go to paymentss
     Given Launch browser
     And user enter credentials for flipkart "<username>","<password>"
