@@ -1,0 +1,101 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1656000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.beforeAnnotation()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "try to login",
+        "description": "",
+        "id": "flipkart-automation;try-to-login",
+        "after": [
+          {
+            "result": {
+              "duration": 8700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterAnnotation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 74800,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Launch browser",
+            "match": {
+              "location": "FlipkartCucumberPayment.launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17200,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "user emter credentials for flipkart \"yuvarajsrec4@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yuvarajsrec4@gmail.com\"",
+                  "offset": 36
+                }
+              ],
+              "location": "FlipkartCucumberPayment.user_emter_credentials_for_flipkart(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "enter password",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@flipart"
+          },
+          {
+            "name": "@execution"
+          }
+        ]
+      }
+    ],
+    "name": "flipkart automation",
+    "description": "",
+    "id": "flipkart-automation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Flipkart.feature",
+    "tags": [
+      {
+        "name": "@flipart",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
