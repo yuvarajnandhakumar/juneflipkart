@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features="src/test//resources//Feature//Flipkart.feature",
 				glue="org.scripting",
 				tags={"@execution"},
-				dryRun=false,
+				dryRun=true,
 				monochrome=true,	
 				plugin={"html:target","json:target/reports.json"}
 		)
